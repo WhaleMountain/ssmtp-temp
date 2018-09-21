@@ -34,7 +34,7 @@ def setMail(To,From,Subject,Text,Temp):
             f.write(Text)
         if Temp != "":
             f.write("\n\n")
-            f.write(str(Temp))
+            f.write(str(Temp.decode()))
 
 
 if __name__ == "__main__":
